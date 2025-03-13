@@ -6,14 +6,6 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  css: {
-    preprocessorOptions: {
-      scss: {
-        api: 'modern-compiler',
-        silenceDeprecations: ["mixed-decls", "import", "color-functions","global-builtin"],
-      },
-    },
-  },
   plugins: [
     vue(),
     vueDevTools(),
