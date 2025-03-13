@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Maak een *fork* van deze repository naar je persoonlijk account voordat je een clone maakt!
+
 # vue-bootstrap
 
 In dit labo gebruiken we Bootstrap in combinatie met Sass (Scss) in een Vue.js applicatie. We starten met een basis Vue applicatie die enkel een root-component bevat (voorlopig zonder opmaak):
